@@ -5,7 +5,7 @@
     my_two_array = [1, 2]
   end
 
-
+RSpec.configure do |config|
 taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
 
 def first_element
@@ -19,7 +19,8 @@ end
 def last_element
   taylor_swift[-1]
 end
-      
+end
+
 south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
    
  def first_element_with_array_methods
