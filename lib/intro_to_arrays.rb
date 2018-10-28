@@ -5,6 +5,7 @@
     my_two_array = [1, 2]
   end
 
+def 
 taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
 
 taylor_swift[0]
