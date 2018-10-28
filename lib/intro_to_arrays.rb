@@ -29,15 +29,8 @@ south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
  end
       
 programming_languages = ["Ruby", "Javascript", "Python", "C++", "Java", "Lisp", "PHP", "Clojure"]
-    end
 
-    describe "#length_of_array" do
-      it 'takes in an argrument of an array and returns the length of the array' do
-        length = length_of_array(@programming_languages)
-        expect(length).to eq(8)
-      end
-    end
-  end
-
-
+def length_of_array
+  programming_languages.length
 end
+     
