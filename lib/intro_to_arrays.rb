@@ -7,4 +7,6 @@
   end
 
 
-  
+  my_two_array[0]
+  my_two_array[2]
+  my_two_array[-1]
